@@ -44,5 +44,13 @@ public class ChatBot {
     public String goodbye() {
         return "It was nice talking with you! Have a great day! Sincerely, " + name;
     }
-}
+
+    // method that prints your favorite season
+    public void favSeason(String season) {
+        System.out.println("Your favorite season is " + season);
+    }
+
+    // method that RETURNS your favorite teacher
+    public String favTeacher(String teacher) { return "Your favorite teacher is " + teacher; }
+    }
 
